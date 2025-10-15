@@ -13,7 +13,7 @@ describe("RegisterForm", () => {
         render(<RegisterForm />);
         const nameInput = screen.getByPlaceholderText("Nombre");
         const emailInput = screen.getByPlaceholderText("Correo electrónico");
-        const button = screen.getByRole("button", { name: /Registrarrr/i });
+        const button = screen.getByRole("button", { name: /Registrar/i });
 
         fireEvent.change(nameInput, { target: { value: "Juan" } });
         fireEvent.change(emailInput, { target: { value: "juan@test.com" } });
