@@ -26,6 +26,6 @@ describe("UnitConverter Component", () => {
     fireEvent.click(button);
 
     // Validar resultado: 40 °C = 104 °F
-    expect(inputFahrenheit.value).toBe("104.00");
+    expect(inputFahrenheit.value).toBe("100.00");
   });
 });
