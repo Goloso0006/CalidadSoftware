@@ -11,7 +11,7 @@ describe("ShoppingCart", () => {
 
     test("al agregar un producto, aumenta el total", () => {
         render(<ShoppingCart />);
-        const addButtons = screen.getAllByRole("button", { name: /Agregar al carritoooo/i });
+        const addButtons = screen.getAllByRole("button", { name: /Agregar al carrito/i });
 
         fireEvent.click(addButtons[0]); // Camisa 20000
 
